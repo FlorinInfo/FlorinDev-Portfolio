@@ -81,10 +81,11 @@ import {
   DiNodejsSmall,
   DiMootoolsBadge,
 } from "react-icons/di";
+import { GiConcentrationOrb, GiPhotoCamera } from "react-icons/gi"; 
 
 export const Resources = [
   {
-    id:"tools",
+    id: "tools",
     sectionTitle: "DEVELOPMENT TOOLS",
     sectionIcon: RiToolsFill,
     elements: [
@@ -112,7 +113,7 @@ export const Resources = [
     ],
   },
   {
-    id:"html",
+    id: "html",
     sectionTitle: "HTML5 RESOURCES",
     sectionIcon: AiOutlineHtml5,
     elements: [
@@ -120,7 +121,8 @@ export const Resources = [
         image: "/images/mdn.png",
         title: "HTML5 Reference by MDN",
         link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element",
-        description:"You don't need to know every HTML element. I just use this excellent reference all the time.",
+        description:
+          "You don't need to know every HTML element. I just use this excellent reference all the time.",
       },
       {
         image: "/images/css-tricks-3.png",
@@ -128,11 +130,11 @@ export const Resources = [
         link: "https://css-tricks.com/snippets/html/glyphs/",
         description:
           "Super useful reference, gives you HTML entity name, numeric code, hex code and ISO code.",
-      }
+      },
     ],
   },
   {
-    id:"css",
+    id: "css",
     sectionTitle: "CSS RESOURCES",
     sectionIcon: DiCss3Full,
     elements: [
@@ -140,7 +142,8 @@ export const Resources = [
         image: "/images/codrops.png",
         title: "CSS3 Reference by Codrops",
         link: "https://tympanus.net/codrops/css_reference/",
-        description:"An excellent CSS reference from Codrops. Make sure to check this one out, too.",
+        description:
+          "An excellent CSS reference from Codrops. Make sure to check this one out, too.",
       },
       {
         image: "/images/caniuse.png",
@@ -162,11 +165,11 @@ export const Resources = [
         link: "https://easings.net/",
         description:
           "An amazing collection of easing functions bo be used in CSS transitions and animations.",
-      }
+      },
     ],
   },
   {
-    id:"javascript",
+    id: "javascript",
     sectionTitle: "JAVASCRIPT RESOURCES",
     sectionIcon: DiJavascript1,
     elements: [
@@ -174,7 +177,8 @@ export const Resources = [
         image: "/images/es6-compat.png",
         title: "ES6+ Browser Compatibility Table",
         link: "https://kangax.github.io/compat-table/es6/",
-        description:"Check out all the new ES6+ features supported and their browser support.",
+        description:
+          "Check out all the new ES6+ features supported and their browser support.",
       },
       {
         image: "/images/keycodes.jpg",
@@ -189,7 +193,7 @@ export const Resources = [
         link: "https://www.patterns.dev/posts/classic-design-patterns/",
         description:
           "For more advanced developers: learn all common JavaScript design patterns. Perfect reference.",
-      }
+      },
     ],
   },
   {
@@ -200,7 +204,8 @@ export const Resources = [
         image: "/images/googlefonts.png",
         title: "Google Fonts",
         link: "https://fonts.google.com/",
-        description:"The #1 resource for free and easy-to-use webfonts. Has a huge library of fonts.",
+        description:
+          "The #1 resource for free and easy-to-use webfonts. Has a huge library of fonts.",
       },
       {
         image: "/images/creativebloq.jpeg",
@@ -209,13 +214,61 @@ export const Resources = [
         description:
           "List of free fonts, from vintage-inspired typefaces to slab serifs, for a range of projects.",
       },
-      {    
+      {
         image: "/images/typeguide.svg",
         title: "A Pocket Guide to Typography",
         link: "http://www.typogui.de/",
         description:
           "Amazing resource to learn about typography. Learn typography basics in less than 30 minutes.",
-      }
+      },
+    ],
+  },
+  {
+    sectionTitle: "IMAGES AND VIDEOS",
+    sectionIcon: GiPhotoCamera,
+    elements: [
+      {
+        image: "/images/unsplash.png",  
+        title: "Unsplash",
+        link: "https://unsplash.com/",
+        description:
+          "My #1 resource for free high-resolution photos. There are more photos here than you can imagine!",
+      },
+      {
+        image: "/images/pexels.png",
+        title: "Pexels",
+        link: "https://www.pexels.com/ro-ro/",
+        description:
+          "Another great resource for free stock photos and videos, created by photographers around the world.",
+      },
+      {
+        image: "/images/isorepublic.png",
+        title: "ISO Republic",
+        link: "https://isorepublic.com/",
+        description:
+          "Free and premium stock photos for your website. Easily searchable by topic.",
+      },
+      {
+        image: "/images/pixaby.png",
+        title: "Pixaby",
+        link: "https://pixabay.com/",
+        description:
+          "Over 2M free stock photos, vectors and art illustrations you can use anywhere.",
+      },
+      {
+        image: "/images/undraw.png",
+        title: "unDraw",
+        link: "https://undraw.co/illustrations",
+        description:
+          "Hundreds of free and open-source illustrations for your websites, and colors are even customizable.",
+      },
+      {
+        image: "/images/coverr.png",
+        title: "Coverr",
+        link: "https://coverr.co/",
+        description:
+          "Best resource for beautiful and free videos about every imaginable topic, easily searchable.",
+      },
     ],
   },
 ];
