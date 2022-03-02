@@ -81,7 +81,8 @@ import {
   DiNodejsSmall,
   DiMootoolsBadge,
 } from "react-icons/di";
-import { GiConcentrationOrb, GiPhotoCamera } from "react-icons/gi"; 
+import { GiConcentrationOrb, GiPhotoCamera } from "react-icons/gi";
+import { IoIosSend } from "react-icons/io";
 
 export const Resources = [
   {
@@ -228,7 +229,7 @@ export const Resources = [
     sectionIcon: GiPhotoCamera,
     elements: [
       {
-        image: "/images/unsplash.png",  
+        image: "/images/unsplash.png",
         title: "Unsplash",
         link: "https://unsplash.com/",
         description:
@@ -268,6 +269,47 @@ export const Resources = [
         link: "https://coverr.co/",
         description:
           "Best resource for beautiful and free videos about every imaginable topic, easily searchable.",
+      },
+    ],
+  },
+  {
+    sectionTitle: "BEST ICONS AND TOOLS",
+    sectionIcon: IoIosSend,
+    elements: [
+      {
+        image: "/images/ionicons.png",
+        title: "Ionicons",
+        link: "https://ionic.io/ionicons",
+        description:
+          "A beautiful and round icon set, very easy to use, and 100% free even for commercial usage.",
+      },
+      {
+        image: "/images/heroicons.png",
+        title: "Hero Icons",
+        link: "https://heroicons.com/",
+        description:
+          "A 230-pieces icon set, available in outline and solid styles, best used at 24x24 px.",
+      },
+      {
+        image: "/images/phosphoricons.png",
+        title: "Phosphor Icons",
+        link: "https://phosphoricons.com/",
+        description:
+          "Another beautiful, more boxy SVG icon set. Customizable thickness and color.",
+      },
+      {
+        image: "/images/Icons8.png",
+        title: "Line Awesome",
+        link: "https://icons8.com/line-awesome",
+        description:
+          "A very simple alternative for Font Awesome.",
+      },
+      {
+        image: "/images/flaticon.png",
+        title: "Flaticon",
+        link: "https://www.flaticon.com/",
+        description:
+          "Access +6.7M vector icons & stickers",
       },
     ],
   },
