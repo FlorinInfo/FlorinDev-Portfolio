@@ -83,6 +83,7 @@ import {
 } from "react-icons/di";
 import { GiConcentrationOrb, GiPhotoCamera } from "react-icons/gi";
 import { IoIosSend } from "react-icons/io";
+import { BiBulb, BiFileFind } from "react-icons/bi";
 
 export const Resources = [
   {
@@ -310,6 +311,33 @@ export const Resources = [
         link: "https://www.flaticon.com/",
         description:
           "Access +6.7M vector icons & stickers",
+      },
+    ],
+  },
+  {
+    sectionTitle: "FIND DESIGN INSPIRATION",
+    sectionIcon: BiBulb,
+    elements: [
+      {
+        image: "/images/dribbble.png",
+        title: "Dribbble",
+        link: "https://dribbble.com/",
+        description:
+          "Most well-known destination to find design inspiration, not just web design.",
+      },
+      {
+        image: "/images/awwwards.png",
+        title: "Awwwards",
+        link: "https://www.awwwards.com/websites/",
+        description:
+          "The awards of design, creativity and innovation on the internet. This one features more creative designs.",
+      },
+      {
+        image: "/images/screenlane.png",
+        title: "Screelane",
+        link: "https://screenlane.com/",
+        description:
+          "Inspiration for individual elements and components. Another of my go-to resources!",
       },
     ],
   },
