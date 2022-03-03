@@ -9,12 +9,13 @@ import ResourcesCard from "../components/ResourcesCard/ResourcesCard";
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import { Resources } from "../constants/constants"
+import MobileNavigation from '../components/MobileBurger';
 
 const Home = () => {
   return (
     <Layout>
       <Section grid>
-        
+        <MobileNavigation/>
         <Hero  />
         <BgAnimation  />
       </Section>
