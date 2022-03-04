@@ -199,6 +199,7 @@ export const Resources = [
     ],
   },
   {
+    id: "fonts",
     sectionTitle: "FONTS AND TYPOGRAPHY TOOLS",
     sectionIcon: AiOutlineFontSize,
     elements: [
@@ -226,6 +227,7 @@ export const Resources = [
     ],
   },
   {
+    id: "images",
     sectionTitle: "IMAGES AND VIDEOS",
     sectionIcon: GiPhotoCamera,
     elements: [
@@ -274,6 +276,7 @@ export const Resources = [
     ],
   },
   {
+    id: "icons",
     sectionTitle: "BEST ICONS AND TOOLS",
     sectionIcon: IoIosSend,
     elements: [
@@ -315,6 +318,7 @@ export const Resources = [
     ],
   },
   {
+    id: "design",
     sectionTitle: "FIND DESIGN INSPIRATION",
     sectionIcon: BiBulb,
     elements: [
