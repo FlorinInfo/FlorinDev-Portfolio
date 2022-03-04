@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
 export const MobileBurgerContainer = styled.div`
-  position: fixed;
-  top: 48px;
+  position: absolute;
   right: 20px;
+  top:42px;
+  width:30px;
+  height:30px;
   z-index:9999;
   @media only screen and (min-width: 950px) {
     display: none;
@@ -15,7 +17,8 @@ export const MobileBurger = styled.div`
   position: relative;
   width: 30px;
   height: 2px;
-  z-index:150;
+  z-index:999;
+  transform:translateY(8px);
   background-color: ${(props) =>
     props.openedBurger == true ? "transparent" : "white"};
 
@@ -45,18 +48,21 @@ export const MobileBurger = styled.div`
 `;
 
 export const NavBckg = styled.div`
-  position:fixed;
-  width: 1px;
-  height: 1px; ;
+  display:block;
+  position:absolute;
+  z-index:900;
   border-radius: 50%;
   background-image: radial-gradient(#0f1624, #212D45);
-  transition: transform 0.8s cubic-bezier(0.86, 0, 0.7, 1);
+  transition: transform 0.5s cubic-bezier(0.86, 0, 0.7, 1);
   top: 48px;
   right: 20px;
   transform: scale(${(props) => (props.openedBurger == true ? "10000" : "0")});
+  width: 1px;
+  height: 1px;
 `;
 
 export const NavigationListCnt = styled.div `
+  z-index:980;
   position:fixed;
   transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   transform:translateX(${(props) => (props.openedBurger == true ? "0" : "-800px")}); 

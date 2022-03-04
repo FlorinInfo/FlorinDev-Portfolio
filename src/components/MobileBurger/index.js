@@ -10,10 +10,10 @@ const MobileNavigation = ()=> {
     } 
 
     return (
-        <MobileBurgerContainer>
-            <NavBckg openedBurger={opened} />
+        <MobileBurgerContainer onClick={navigationAction}>
+            <div style={{position:"relative;"}}><NavBckg openedBurger={opened} ></NavBckg></div>
             {/* <div style={{"width":'200px', position:"absolute", height:"200px", backgroundColor:"red"}}></div> */}
-            <MobileBurger openedBurger={opened} onClick={navigationAction}></MobileBurger>
+            <MobileBurger openedBurger={opened} ></MobileBurger>
            <NavigationListCnt openedBurger={opened}>
                 <NavigationList>
                     <li><a href="#projects" onClick={navigationAction}>Projects</a></li>

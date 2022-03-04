@@ -14,8 +14,8 @@ import MobileNavigation from '../components/MobileBurger';
 const Home = () => {
   return (
     <Layout>
+      <MobileNavigation/>
       <Section grid>
-        <MobileNavigation/>
         <Hero  />
         <BgAnimation  />
       </Section>
