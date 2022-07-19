@@ -1,33 +1,13 @@
 export const projects = [
   {
-    title: "Tourist",
-    description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: "/images/1.png",
-    tags: ["HTML", "CSS", "SASS", "Animations"],
-    source: "https://github.com/FlorinInfo/Tourist",
-    visit: "tourist-project.netlify.app/",
-    id: 0,
-  },
-  {
-    title: "Tourist React App",
-    description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: "/images/2.png",
-    tags: ["React", "JavaScript"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 1,
-  },
-  {
     title: "DesignMall App",
     description:
       "DesignMall is an online fashion destination with an impressive variety of hundreds of thousands of products from more than 1000 brands of clothing, footwear and accessories for women, men and kids. ... Since 2021, DesignMall is part of Aldim Invest Group.",
     image: "/images/3.png",
     tags: ["Vue", "SSR/Nuxt", "Node", "VueMaterial"],
     source: "#",
-    visit: "https://google.com",
-    id: 2,
+    visit: "https://designmall.ro/",
+    id: 0,
   },
   {
     title: "SonikPocket",
@@ -37,17 +17,17 @@ export const projects = [
     tags: ["Vue", "Vuex", "Cypress", "Figma"],
     source: "#",
     visit: "https://www.highcontrast.ro/work/sonik-pocket",
-    id: 3,
+    id: 1,
   },
   {
     title: "School of Visual Arts",
     description:
-      "Visual Arts Press - As the design studio for the School of Visual Arts, the Press produces the College’s printed publications, websites, environmental graphics and promotional products while maintaining a unified branded identity.",
+      "Visual Arts Press - As the design studio for the School of Visual Arts, the Press produces the College’s printed websites, environmental graphics, publications, promotional products while maintaining a unified branded identity.",
     image: "/images/5.png",
     tags: ["Vue", "SSR/Nuxt", "SASS"],
     source: "#",
     visit: "https://vap.sva.edu/",
-    id: 4,
+    id: 2,
   },
   {
     title: "Football Manager App",
@@ -57,6 +37,24 @@ export const projects = [
     tags: ["Vue", "Vuex", "Node.js", "MongoDB"],
     source: "https://github.com/FlorinInfo/football-manager-main",
     visit: "https://football-manager-f.netlify.app/",
+    id: 3,
+  },
+  {
+    title: "Tourist",
+    description:"",
+    image: "/images/1.png",
+    tags: ["HTML", "CSS", "SASS", "Animations"],
+    source: "https://github.com/FlorinInfo/Tourist",
+    visit: "https://tourist-project.netlify.app/",
+    id: 4,
+  },
+  {
+    title: "Tourist React App",
+    description:"",
+    image: "/images/2.png",
+    tags: ["React", "JavaScript"],
+    source: "https://github.com/FlorinInfo/Tourist-React",
+    visit: "https://touristv2-react.netlify.app/",
     id: 5,
   },
 ];

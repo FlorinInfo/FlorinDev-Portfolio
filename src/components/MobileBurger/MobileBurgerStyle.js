@@ -49,6 +49,7 @@ export const MobileBurger = styled.div`
 
 export const NavBckg = styled.div`
   display:block;
+  overflow:hidden;
   position:absolute;
   z-index:900;
   border-radius: 50%;

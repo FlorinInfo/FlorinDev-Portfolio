@@ -1,4 +1,6 @@
 import { useState } from "react";
+import $ from "jquery";
+
 
 import { MobileBurgerContainer, MobileBurger, NavBckg , NavigationList, NavigationListCnt} from "./MobileBurgerStyle";
 
@@ -6,7 +8,10 @@ const MobileNavigation = ()=> {
     const [ opened , setOpened] = useState(false);  
 
     function navigationAction() {
+
         setOpened(!opened);
+        let element = document.querySelector("html");
+        !opened ? element.classList.add("overflow-hidden") :  element.classList.remove("overflow-hidden");
     } 
 
     return (
